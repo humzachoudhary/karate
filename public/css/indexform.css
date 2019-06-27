@@ -1,0 +1,167 @@
+div.registration{
+    display: inline-block;
+}
+div.personal {
+    color: black;
+    width: 400px;
+    height: 2300px;
+    
+}
+select[type=text],
+select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+input[type=text],
+select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+input[type=email],
+select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+input[type=number],
+select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+input[type=date],
+select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: black;
+}
+.register[type=submit] {
+    width: 30%;
+    background-color: #ffc801;
+    color: black;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.register[type=submit]:hover {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+input[type=button] {
+    width: 30%;
+    background-color: #ffc801;
+    color: black;
+    padding: 7px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+input[type=button]:hover {
+    background-color: grey;
+    color: black;
+    font-weight: bold;
+}
+option {
+    color: black;
+}
+p {
+    color: black;
+}
+.search-box {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    float: middle;
+}
+.search-box input[type="text"] {
+    height: 32px;
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+.result {
+    z-index: 15;
+    top: 100%;
+    left: 0%;
+}
+.search-box input[type="text"],
+.result {
+    width: 100%;
+    box-sizing: border-box;
+}
+.result p {
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+.result p:hover {
+    background: #f2f2f2;
+}
+.hoverTable{
+    width:95%; 
+    border-collapse:collapse; 
+    text-align: center;
+}
+.hoverTable td{ 
+    padding:10px; border:black 3px solid;
+}
+/* Define the default color for all the table rows */
+.hoverTable tr{
+    background:#52ADCC;
+    padding:10px; border:black 3px solid;
+}
+/* Define the hover highlight color for the table row */
+.hoverTable tr:hover {
+    background-color: #E6E04C;
+}
+h2 {
+    color: grey;
+}
+.error{
+    color: red;
+}
+table, td, th {    
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
